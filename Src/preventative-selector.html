@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<style type="text/css">
+@import url("style.css");
+</style>
+<script type='text/javascript' src='MenuRenderer.js'>
+        </script>
+</head>
+
+<body onload='SetUp();'>
+	<div class="content">
+		<div class="heading-background">
+			<div class="heading-icon">
+				<img src="Vector_Smart_Object.png">
+			</div>
+
+			<div class="heading-text Title">
+				<h1 id='title'>What type of application would you prefer?</h1>
+				<p id="details">
+						If your not sure what application to choose watch my video by
+						clicking the link below and I’ll help you tackle your pet’s
+						parasite problem and show you how to find the perfect medication
+						for you and your pet’s lifestyle. Watch Now > <br> - Dr Mark
+					</p>
+			</div>
+		</div>
+
+		<div class="row Button-Bar">
+			<div id='A' class="col-sm-4 button" onclick='btnA.pressed()'>
+				<img src="" alt="Dog">
+				<h2 >Option A</h2>
+			</div>
+			<div  id='B' class="col-sm-4 button" onclick='btnB.pressed()'>
+				<img src="cat.png" alt="Cat">
+				<h2>Option B</h2>
+			</div>
+			<div  id='C' class="col-sm-4 button" onclick='btnC.pressed()'>
+				<img src="dog.png" alt="Dog">
+				<h2>Option C</h2>
+			</div>
+		</div>
+
+		<div class="prev-btn">
+			<span class='button button-back' onclick='btnBack.pressed()'
+				id='Back'>Previous</span>
+		</div>
+	</div>
+</body>
+</html>

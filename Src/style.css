@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	max-width: 979px;
+	background: #f6f7f8;
+	margin: 0 auto;
+}
+
+.content {
+	padding: 2em;
+}
+
+.heading-background {
+	background-color: #5e53a2;
+	max-width: 100%;
+	height: auto;
+	padding: 2%;
+}
+
+.heading-icon {
+	width: 10%;
+	height: auto;
+	display: inline-block;
+	margin-right: 2%;
+}
+
+.heading-text {
+	width: 86%;
+	height: auto;
+	display: inline-block;
+}
+
+.heading-background h1 {
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 1.667em;
+	font-weight: 700;
+}
+
+.heading-background p {
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.prev-btn {
+	color: #666;
+	font-family: Arial;
+	font-weight: 700;
+	font size: 1.2em;
+	border-top: 2.5px solid;
+	border-bottom: 2.5px solid;
+	line-height: 3em;
+	width: 100%;
+	display: inline-block;
+	padding-left: 1em;
+}
+
+/*! CSS Used from: http://www.vetshopaustralia.com.au/App_Themes/VetShopAustralia/style.css */
+@media screen and (max-width:979px) {
+	img {
+		max-width: 100% !important
+	}
+	img {
+		height: auto
+	}
+}
+/*! CSS Used from: http://www.vetshopaustralia.com.au/App_Themes/VetShopAustralia/vsa-landing-page-styles.css */
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+	padding: 2em 0 2em 0;
+}
+
+.col-sm-4 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	max-width: 30%;
+	float: left
+}
+
+.row .col-sm-4 img {
+	max-width: 100%;
+	background-color: #b4afc3;
+}
+
+.row .col-sm-4 h2 {
+	color: #5e53a2;
+	font-family: Arial;
+	margin-top: 1em;
+}
+
+.row .col-sm-4 img:hover {
+	background-color: #5e53a2;
+	color: green;
+}
+
+@media screen and (max-width:780px) {
+	.col-sm-4 {
+		max-width: 80%;
+		float: left;
+		margin: 0 auto;
+		padding: 0 2em
+	}
+	.row .col-sm-4 img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto
+	}
+}
